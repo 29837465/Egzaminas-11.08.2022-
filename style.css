@@ -94,8 +94,6 @@ button {
 
 .korteles {
     width: 200px;
-    height: 210px;
-    text-align: center;
 }
 
 .aprasas1 {
@@ -110,11 +108,13 @@ button {
     text-align: right;
 }
 
-.zenklas {
+.zymeklis {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: end;
+    align-items: center;
+    height: 20px;
 }
 
 .ketvirtas {
@@ -146,7 +146,7 @@ button {
     margin-top: 80px;
 }
 
-@media screen and (min-widt: 428px) {
+@media screen and (min-widt: 429px) {
     .menu {
         display: none;
     }
@@ -159,10 +159,6 @@ button {
         margin: 10px;
     }
 
-    ul {
-        display: none;
-    }
-
     .apacia {
         display: flex;
     }
@@ -171,7 +167,7 @@ button {
         width: 50%;
     }
 
-    .appsai4 {
+    .appsai4, ul {
         display: none;
     }
 
