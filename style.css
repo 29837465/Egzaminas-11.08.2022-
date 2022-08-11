@@ -1,0 +1,189 @@
+body {
+    margin: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none; 
+    color: rgb(108, 103, 103);
+}
+
+i {
+    padding-top: 7px;
+}
+
+.pirmas {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.penktas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+}
+
+.kaire_virsus {
+    margin-top: 40px;
+}
+
+.kaire_apacia {
+    width: 60%;
+    margin-top: 100px;
+}
+
+button {
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid rgb(238, 131, 9);
+    width: 100px;
+    height: 45px;
+    font-weight: bold;
+}
+
+.antras {
+    display: flex;
+    flex-direction: column;
+    background: url(background.svg);
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+.besmegenis {
+    height: auto;
+} 
+
+.apps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.trecias {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.korteles {
+    width: 200px;
+    height: 210px;
+    text-align: center;
+}
+
+.aprasas1 {
+    background-color: rgb(237, 231, 231);
+    width: 50%;
+    text-align: left;
+}
+
+.aprasas2 {
+    background-color: rgb(237, 231, 231);
+    width: 50%;
+    text-align: right;
+}
+
+.zenklas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+}
+
+.ketvirtas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+
+.apacia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.logo2 {
+    width: 52%;
+}
+
+.kontaktai {
+    width: 12%;
+}
+
+.zalias {
+    height: 340px;
+    width: 180px;
+    margin-top: 80px;
+}
+
+@media screen and (min-widt: 428px) {
+    .menu {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 428px) {
+
+    body {
+        margin: 10px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .apacia {
+        display: flex;
+    }
+
+    .appsai1, .appsai2, .appsai3, .appsai5 {
+        width: 50%;
+    }
+
+    .appsai4 {
+        display: none;
+    }
+
+    .kontaktai {
+        float: left;
+        width: 50%;
+    }
+
+    .desine_virsus, .ketvirtas {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+}
+    
