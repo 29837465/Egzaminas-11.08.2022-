@@ -63,6 +63,7 @@ button {
     background: url(background.svg);
     padding-top: 80px;
     padding-left: 20px;
+    border-radius: 13px;
 }
 
 .besmegenis {
@@ -94,18 +95,22 @@ button {
 
 .korteles {
     width: 200px;
+    border-radius: 13px 13px 0px 0px;
+
 }
 
 .aprasas1 {
     background-color: rgb(237, 231, 231);
     width: 50%;
     text-align: left;
+    border-radius: 0px 0px 0px 13px;
 }
 
 .aprasas2 {
     background-color: rgb(237, 231, 231);
     width: 50%;
     text-align: right;
+    border-radius: 0px 0px 13px 0px;
 }
 
 .zymeklis {
@@ -146,11 +151,10 @@ button {
     margin-top: 80px;
 }
 
-@media screen and (min-widt: 429px) {
+@media screen and (min-width: 429px) {
     .menu {
         display: none;
-    }
-    
+    }  
 }
 
 @media screen and (max-width: 428px) {
@@ -180,6 +184,5 @@ button {
         overflow-x: hidden;
         overflow-y: hidden;
     }
-
 }
     
